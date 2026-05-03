@@ -1,0 +1,18 @@
+failure_id,robot_id,failure_type,failure_time,root_cause
+FAIL-0001,ROB-0018,bearing_failure,2024-04-06,electrical surge
+FAIL-0002,ROB-0043,motor_failure,2023-09-10,lubrication breakdown
+FAIL-0003,ROB-0032,overheating,2024-04-15,overload operation
+FAIL-0004,ROB-0014,joint_wear,2023-06-06,thermal cycling fatigue
+FAIL-0005,ROB-0035,encoder_drift,2023-08-21,electrical surge
+FAIL-0006,ROB-0009,bearing_failure,2023-07-04,thermal cycling fatigue
+FAIL-0007,ROB-0037,bearing_failure,2023-11-24,thermal cycling fatigue
+FAIL-0008,ROB-0044,bearing_failure,2023-09-24,overload operation
+FAIL-0009,ROB-0031,motor_failure,2023-07-24,contamination
+FAIL-0010,ROB-0016,motor_failure,2023-08-02,overload operation
+FAIL-0011,ROB-0042,joint_wear,2024-01-15,electrical surge
+FAIL-0012,ROB-0027,bearing_failure,2024-01-30,thermal cycling fatigue
+FAIL-0013,ROB-0013,motor_failure,2024-01-23,thermal cycling fatigue
+FAIL-0014,ROB-0007,motor_failure,2023-11-21,electrical surge
+FAIL-0015,ROB-0049,bearing_failure,2023-09-01,mechanical misalignment
+FAIL-0016,ROB-0028,encoder_drift,2023-11-15,contamination
+FAIL-0017,ROB-0023,joint_wear,2024-05-21,thermal cycling fatigue

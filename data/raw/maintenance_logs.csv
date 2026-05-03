@@ -1,0 +1,263 @@
+maintenance_id,robot_id,maintenance_type,issue_detected,downtime_hours
+MAINT-000001,ROB-0001,calibration,Minor wear detected,0.7
+MAINT-000002,ROB-0001,lubrication,No issue found - routine check,3.1
+MAINT-000003,ROB-0001,inspection,Minor wear detected,2.2
+MAINT-000004,ROB-0001,lubrication,Minor wear detected,3.9
+MAINT-000005,ROB-0001,inspection,No issue found - routine check,0.7
+MAINT-000006,ROB-0001,inspection,No issue found - routine check,1.3
+MAINT-000007,ROB-0001,inspection,No issue found - routine check,2.5
+MAINT-000008,ROB-0002,inspection,No issue found - routine check,2.0
+MAINT-000009,ROB-0002,lubrication,No issue found - routine check,1.6
+MAINT-000010,ROB-0002,calibration,Minor wear detected,3.0
+MAINT-000011,ROB-0002,inspection,Minor wear detected,1.0
+MAINT-000012,ROB-0002,lubrication,Minor wear detected,1.6
+MAINT-000013,ROB-0002,inspection,Minor wear detected,2.7
+MAINT-000014,ROB-0003,inspection,Minor wear detected,1.2
+MAINT-000015,ROB-0003,calibration,Minor wear detected,1.7
+MAINT-000016,ROB-0003,inspection,No issue found - routine check,1.8
+MAINT-000017,ROB-0003,inspection,No issue found - routine check,2.4
+MAINT-000018,ROB-0003,calibration,No issue found - routine check,4.0
+MAINT-000019,ROB-0004,inspection,No issue found - routine check,2.4
+MAINT-000020,ROB-0004,lubrication,Minor wear detected,3.6
+MAINT-000021,ROB-0004,calibration,Minor wear detected,0.9
+MAINT-000022,ROB-0004,lubrication,Minor wear detected,1.5
+MAINT-000023,ROB-0004,inspection,No issue found - routine check,1.2
+MAINT-000024,ROB-0004,lubrication,No issue found - routine check,2.3
+MAINT-000025,ROB-0005,inspection,Minor wear detected,2.0
+MAINT-000026,ROB-0005,calibration,Minor wear detected,1.7
+MAINT-000027,ROB-0005,inspection,No issue found - routine check,1.4
+MAINT-000028,ROB-0005,lubrication,No issue found - routine check,3.0
+MAINT-000029,ROB-0005,lubrication,Minor wear detected,0.8
+MAINT-000030,ROB-0005,lubrication,No issue found - routine check,2.4
+MAINT-000031,ROB-0006,lubrication,No issue found - routine check,2.0
+MAINT-000032,ROB-0006,inspection,No issue found - routine check,3.6
+MAINT-000033,ROB-0006,inspection,No issue found - routine check,1.2
+MAINT-000034,ROB-0006,inspection,No issue found - routine check,1.7
+MAINT-000035,ROB-0006,lubrication,No issue found - routine check,1.9
+MAINT-000036,ROB-0007,inspection,No issue found - routine check,1.3
+MAINT-000037,ROB-0007,inspection,No issue found - routine check,3.3
+MAINT-000038,ROB-0007,calibration,Minor wear detected,3.1
+MAINT-000039,ROB-0007,calibration,No issue found - routine check,1.9
+MAINT-000040,ROB-0007,repair,motor_failure,37.4
+MAINT-000041,ROB-0008,inspection,No issue found - routine check,0.9
+MAINT-000042,ROB-0008,inspection,No issue found - routine check,1.3
+MAINT-000043,ROB-0008,calibration,No issue found - routine check,3.4
+MAINT-000044,ROB-0008,inspection,Minor wear detected,2.8
+MAINT-000045,ROB-0008,calibration,No issue found - routine check,3.5
+MAINT-000046,ROB-0008,calibration,No issue found - routine check,2.3
+MAINT-000047,ROB-0009,lubrication,No issue found - routine check,0.6
+MAINT-000048,ROB-0009,calibration,Minor wear detected,3.9
+MAINT-000049,ROB-0009,replacement,bearing_failure,12.3
+MAINT-000050,ROB-0010,lubrication,No issue found - routine check,2.0
+MAINT-000051,ROB-0010,lubrication,Minor wear detected,3.6
+MAINT-000052,ROB-0010,inspection,Minor wear detected,3.0
+MAINT-000053,ROB-0010,inspection,No issue found - routine check,3.3
+MAINT-000054,ROB-0010,lubrication,No issue found - routine check,3.1
+MAINT-000055,ROB-0010,lubrication,Minor wear detected,2.0
+MAINT-000056,ROB-0011,calibration,No issue found - routine check,2.8
+MAINT-000057,ROB-0011,inspection,No issue found - routine check,1.6
+MAINT-000058,ROB-0011,calibration,No issue found - routine check,1.6
+MAINT-000059,ROB-0011,lubrication,Minor wear detected,0.9
+MAINT-000060,ROB-0011,calibration,No issue found - routine check,1.8
+MAINT-000061,ROB-0012,inspection,No issue found - routine check,1.6
+MAINT-000062,ROB-0012,lubrication,No issue found - routine check,1.6
+MAINT-000063,ROB-0012,inspection,No issue found - routine check,2.5
+MAINT-000064,ROB-0012,lubrication,No issue found - routine check,2.0
+MAINT-000065,ROB-0012,lubrication,Minor wear detected,2.2
+MAINT-000066,ROB-0012,lubrication,Minor wear detected,0.8
+MAINT-000067,ROB-0013,lubrication,No issue found - routine check,0.8
+MAINT-000068,ROB-0013,inspection,No issue found - routine check,1.3
+MAINT-000069,ROB-0013,inspection,Minor wear detected,0.7
+MAINT-000070,ROB-0013,calibration,No issue found - routine check,3.2
+MAINT-000071,ROB-0013,repair,motor_failure,43.4
+MAINT-000072,ROB-0014,lubrication,No issue found - routine check,2.2
+MAINT-000073,ROB-0014,inspection,Minor wear detected,2.9
+MAINT-000074,ROB-0014,repair,joint_wear,42.4
+MAINT-000075,ROB-0015,calibration,Minor wear detected,3.3
+MAINT-000076,ROB-0015,lubrication,No issue found - routine check,0.7
+MAINT-000077,ROB-0015,inspection,No issue found - routine check,0.9
+MAINT-000078,ROB-0015,inspection,No issue found - routine check,2.8
+MAINT-000079,ROB-0015,lubrication,No issue found - routine check,3.8
+MAINT-000080,ROB-0015,calibration,No issue found - routine check,3.0
+MAINT-000081,ROB-0016,lubrication,No issue found - routine check,1.1
+MAINT-000082,ROB-0016,calibration,No issue found - routine check,3.1
+MAINT-000083,ROB-0016,repair,motor_failure,19.1
+MAINT-000084,ROB-0017,calibration,No issue found - routine check,1.5
+MAINT-000085,ROB-0017,inspection,No issue found - routine check,1.3
+MAINT-000086,ROB-0017,calibration,No issue found - routine check,2.4
+MAINT-000087,ROB-0017,inspection,Minor wear detected,1.8
+MAINT-000088,ROB-0017,inspection,No issue found - routine check,0.7
+MAINT-000089,ROB-0017,calibration,No issue found - routine check,2.1
+MAINT-000090,ROB-0017,replacement,error code 0x47,11.0
+MAINT-000091,ROB-0018,lubrication,No issue found - routine check,0.6
+MAINT-000092,ROB-0018,lubrication,No issue found - routine check,0.5
+MAINT-000093,ROB-0018,calibration,Minor wear detected,1.9
+MAINT-000094,ROB-0018,calibration,No issue found - routine check,3.1
+MAINT-000095,ROB-0018,repair,bearing_failure,43.9
+MAINT-000096,ROB-0019,calibration,No issue found - routine check,0.6
+MAINT-000097,ROB-0019,calibration,No issue found - routine check,3.3
+MAINT-000098,ROB-0019,lubrication,Minor wear detected,2.1
+MAINT-000099,ROB-0019,inspection,No issue found - routine check,2.4
+MAINT-000100,ROB-0019,calibration,No issue found - routine check,2.8
+MAINT-000101,ROB-0019,replacement,unexpected shutdown,10.7
+MAINT-000102,ROB-0020,inspection,Minor wear detected,1.8
+MAINT-000103,ROB-0020,inspection,No issue found - routine check,1.7
+MAINT-000104,ROB-0020,calibration,Minor wear detected,3.8
+MAINT-000105,ROB-0020,calibration,Minor wear detected,0.8
+MAINT-000106,ROB-0020,inspection,No issue found - routine check,0.7
+MAINT-000107,ROB-0020,calibration,Minor wear detected,0.7
+MAINT-000108,ROB-0021,inspection,No issue found - routine check,3.8
+MAINT-000109,ROB-0021,inspection,No issue found - routine check,2.7
+MAINT-000110,ROB-0021,inspection,Minor wear detected,2.8
+MAINT-000111,ROB-0021,lubrication,No issue found - routine check,2.1
+MAINT-000112,ROB-0021,calibration,No issue found - routine check,1.1
+MAINT-000113,ROB-0021,lubrication,No issue found - routine check,3.0
+MAINT-000114,ROB-0022,inspection,No issue found - routine check,0.9
+MAINT-000115,ROB-0022,inspection,No issue found - routine check,2.5
+MAINT-000116,ROB-0022,calibration,No issue found - routine check,3.0
+MAINT-000117,ROB-0022,inspection,No issue found - routine check,3.4
+MAINT-000118,ROB-0022,inspection,Minor wear detected,3.2
+MAINT-000119,ROB-0022,lubrication,No issue found - routine check,0.9
+MAINT-000120,ROB-0023,inspection,No issue found - routine check,2.0
+MAINT-000121,ROB-0023,calibration,Minor wear detected,2.8
+MAINT-000122,ROB-0023,inspection,No issue found - routine check,3.4
+MAINT-000123,ROB-0023,inspection,No issue found - routine check,1.8
+MAINT-000124,ROB-0023,repair,joint_wear,26.4
+MAINT-000125,ROB-0024,inspection,No issue found - routine check,3.9
+MAINT-000126,ROB-0024,calibration,No issue found - routine check,3.7
+MAINT-000127,ROB-0024,calibration,No issue found - routine check,3.4
+MAINT-000128,ROB-0024,lubrication,Minor wear detected,3.5
+MAINT-000129,ROB-0024,inspection,Minor wear detected,2.1
+MAINT-000130,ROB-0024,calibration,No issue found - routine check,2.8
+MAINT-000131,ROB-0025,calibration,No issue found - routine check,1.1
+MAINT-000132,ROB-0025,inspection,No issue found - routine check,1.4
+MAINT-000133,ROB-0025,calibration,No issue found - routine check,3.0
+MAINT-000134,ROB-0025,calibration,No issue found - routine check,2.3
+MAINT-000135,ROB-0025,inspection,Minor wear detected,3.0
+MAINT-000136,ROB-0026,inspection,No issue found - routine check,2.8
+MAINT-000137,ROB-0026,calibration,No issue found - routine check,0.6
+MAINT-000138,ROB-0026,calibration,Minor wear detected,2.9
+MAINT-000139,ROB-0026,calibration,No issue found - routine check,1.8
+MAINT-000140,ROB-0026,lubrication,No issue found - routine check,2.0
+MAINT-000141,ROB-0027,calibration,No issue found - routine check,2.1
+MAINT-000142,ROB-0027,calibration,Minor wear detected,0.9
+MAINT-000143,ROB-0027,inspection,No issue found - routine check,3.1
+MAINT-000144,ROB-0027,lubrication,Minor wear detected,1.3
+MAINT-000145,ROB-0027,repair,bearing_failure,37.0
+MAINT-000146,ROB-0028,lubrication,No issue found - routine check,3.9
+MAINT-000147,ROB-0028,inspection,Minor wear detected,1.8
+MAINT-000148,ROB-0028,calibration,Minor wear detected,2.4
+MAINT-000149,ROB-0028,calibration,Minor wear detected,0.7
+MAINT-000150,ROB-0028,replacement,encoder_drift,45.8
+MAINT-000151,ROB-0029,calibration,Minor wear detected,0.5
+MAINT-000152,ROB-0029,calibration,No issue found - routine check,2.0
+MAINT-000153,ROB-0029,inspection,No issue found - routine check,1.4
+MAINT-000154,ROB-0029,calibration,Minor wear detected,0.7
+MAINT-000155,ROB-0029,calibration,Minor wear detected,2.7
+MAINT-000156,ROB-0029,repair,performance degradation,11.5
+MAINT-000157,ROB-0030,inspection,No issue found - routine check,0.9
+MAINT-000158,ROB-0030,calibration,No issue found - routine check,3.3
+MAINT-000159,ROB-0030,inspection,No issue found - routine check,1.8
+MAINT-000160,ROB-0030,calibration,Minor wear detected,2.6
+MAINT-000161,ROB-0030,calibration,No issue found - routine check,2.7
+MAINT-000162,ROB-0031,lubrication,Minor wear detected,3.2
+MAINT-000163,ROB-0031,lubrication,Minor wear detected,2.8
+MAINT-000164,ROB-0031,replacement,motor_failure,15.0
+MAINT-000165,ROB-0031,repair,error code 0x47,6.5
+MAINT-000166,ROB-0032,lubrication,No issue found - routine check,0.6
+MAINT-000167,ROB-0032,calibration,No issue found - routine check,3.0
+MAINT-000168,ROB-0032,calibration,Minor wear detected,1.3
+MAINT-000169,ROB-0032,calibration,No issue found - routine check,2.7
+MAINT-000170,ROB-0032,repair,overheating,45.3
+MAINT-000171,ROB-0033,lubrication,Minor wear detected,1.0
+MAINT-000172,ROB-0033,calibration,No issue found - routine check,0.7
+MAINT-000173,ROB-0033,inspection,No issue found - routine check,2.6
+MAINT-000174,ROB-0033,lubrication,No issue found - routine check,2.0
+MAINT-000175,ROB-0033,calibration,No issue found - routine check,2.9
+MAINT-000176,ROB-0033,calibration,No issue found - routine check,2.2
+MAINT-000177,ROB-0033,repair,error code 0x47,9.3
+MAINT-000178,ROB-0034,lubrication,Minor wear detected,0.8
+MAINT-000179,ROB-0034,lubrication,No issue found - routine check,2.5
+MAINT-000180,ROB-0034,inspection,No issue found - routine check,2.9
+MAINT-000181,ROB-0034,calibration,No issue found - routine check,3.2
+MAINT-000182,ROB-0034,inspection,No issue found - routine check,2.8
+MAINT-000183,ROB-0035,inspection,No issue found - routine check,2.0
+MAINT-000184,ROB-0035,calibration,No issue found - routine check,2.1
+MAINT-000185,ROB-0035,calibration,No issue found - routine check,2.8
+MAINT-000186,ROB-0035,repair,encoder_drift,21.2
+MAINT-000187,ROB-0036,calibration,No issue found - routine check,1.9
+MAINT-000188,ROB-0036,lubrication,Minor wear detected,0.8
+MAINT-000189,ROB-0036,calibration,No issue found - routine check,3.9
+MAINT-000190,ROB-0036,calibration,No issue found - routine check,3.4
+MAINT-000191,ROB-0036,inspection,No issue found - routine check,2.4
+MAINT-000192,ROB-0037,inspection,No issue found - routine check,2.7
+MAINT-000193,ROB-0037,calibration,No issue found - routine check,3.2
+MAINT-000194,ROB-0037,inspection,Minor wear detected,1.0
+MAINT-000195,ROB-0037,replacement,bearing_failure,43.2
+MAINT-000196,ROB-0038,inspection,No issue found - routine check,2.6
+MAINT-000197,ROB-0038,inspection,No issue found - routine check,1.6
+MAINT-000198,ROB-0038,inspection,No issue found - routine check,0.8
+MAINT-000199,ROB-0038,inspection,No issue found - routine check,0.9
+MAINT-000200,ROB-0038,inspection,No issue found - routine check,3.0
+MAINT-000201,ROB-0038,lubrication,No issue found - routine check,2.0
+MAINT-000202,ROB-0039,calibration,Minor wear detected,2.4
+MAINT-000203,ROB-0039,calibration,Minor wear detected,2.6
+MAINT-000204,ROB-0039,lubrication,No issue found - routine check,3.5
+MAINT-000205,ROB-0039,calibration,No issue found - routine check,3.5
+MAINT-000206,ROB-0039,calibration,No issue found - routine check,2.3
+MAINT-000207,ROB-0039,inspection,Minor wear detected,1.5
+MAINT-000208,ROB-0040,lubrication,No issue found - routine check,1.0
+MAINT-000209,ROB-0040,lubrication,No issue found - routine check,1.7
+MAINT-000210,ROB-0040,lubrication,No issue found - routine check,3.8
+MAINT-000211,ROB-0040,inspection,No issue found - routine check,1.3
+MAINT-000212,ROB-0040,calibration,Minor wear detected,3.2
+MAINT-000213,ROB-0040,inspection,No issue found - routine check,2.2
+MAINT-000214,ROB-0041,calibration,No issue found - routine check,2.8
+MAINT-000215,ROB-0041,lubrication,No issue found - routine check,2.2
+MAINT-000216,ROB-0041,inspection,Minor wear detected,3.9
+MAINT-000217,ROB-0041,calibration,No issue found - routine check,3.6
+MAINT-000218,ROB-0041,calibration,Minor wear detected,3.7
+MAINT-000219,ROB-0041,repair,error code 0x47,10.7
+MAINT-000220,ROB-0042,inspection,Minor wear detected,3.2
+MAINT-000221,ROB-0042,calibration,No issue found - routine check,2.9
+MAINT-000222,ROB-0042,lubrication,Minor wear detected,1.6
+MAINT-000223,ROB-0042,repair,joint_wear,29.3
+MAINT-000224,ROB-0043,lubrication,No issue found - routine check,3.2
+MAINT-000225,ROB-0043,lubrication,Minor wear detected,0.7
+MAINT-000226,ROB-0043,repair,motor_failure,44.8
+MAINT-000227,ROB-0044,lubrication,Minor wear detected,3.9
+MAINT-000228,ROB-0044,lubrication,No issue found - routine check,0.9
+MAINT-000229,ROB-0044,replacement,bearing_failure,20.0
+MAINT-000230,ROB-0044,replacement,unexpected shutdown,4.9
+MAINT-000231,ROB-0045,calibration,No issue found - routine check,1.4
+MAINT-000232,ROB-0045,calibration,No issue found - routine check,3.3
+MAINT-000233,ROB-0045,inspection,Minor wear detected,2.6
+MAINT-000234,ROB-0045,calibration,No issue found - routine check,1.3
+MAINT-000235,ROB-0045,lubrication,Minor wear detected,2.1
+MAINT-000236,ROB-0046,calibration,No issue found - routine check,3.6
+MAINT-000237,ROB-0046,calibration,No issue found - routine check,2.9
+MAINT-000238,ROB-0046,inspection,Minor wear detected,3.8
+MAINT-000239,ROB-0046,lubrication,Minor wear detected,3.9
+MAINT-000240,ROB-0046,lubrication,Minor wear detected,3.5
+MAINT-000241,ROB-0047,calibration,No issue found - routine check,0.9
+MAINT-000242,ROB-0047,calibration,No issue found - routine check,2.5
+MAINT-000243,ROB-0047,lubrication,Minor wear detected,3.9
+MAINT-000244,ROB-0047,lubrication,No issue found - routine check,0.5
+MAINT-000245,ROB-0047,lubrication,No issue found - routine check,3.9
+MAINT-000246,ROB-0047,lubrication,No issue found - routine check,3.4
+MAINT-000247,ROB-0048,inspection,No issue found - routine check,1.7
+MAINT-000248,ROB-0048,lubrication,Minor wear detected,1.4
+MAINT-000249,ROB-0048,lubrication,No issue found - routine check,2.9
+MAINT-000250,ROB-0048,inspection,No issue found - routine check,3.7
+MAINT-000251,ROB-0048,lubrication,Minor wear detected,3.3
+MAINT-000252,ROB-0048,replacement,performance degradation,3.3
+MAINT-000253,ROB-0049,calibration,No issue found - routine check,2.0
+MAINT-000254,ROB-0049,inspection,Minor wear detected,2.4
+MAINT-000255,ROB-0049,calibration,No issue found - routine check,3.7
+MAINT-000256,ROB-0049,repair,bearing_failure,18.3
+MAINT-000257,ROB-0050,calibration,No issue found - routine check,1.5
+MAINT-000258,ROB-0050,calibration,No issue found - routine check,2.1
+MAINT-000259,ROB-0050,inspection,Minor wear detected,3.9
+MAINT-000260,ROB-0050,lubrication,No issue found - routine check,3.9
+MAINT-000261,ROB-0050,lubrication,No issue found - routine check,3.3
+MAINT-000262,ROB-0050,inspection,Minor wear detected,0.9
