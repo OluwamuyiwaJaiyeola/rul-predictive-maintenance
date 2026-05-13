@@ -1,0 +1,25 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "deploy@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote add hf https://ThatBlvck:$HF_TOKEN@huggingface.co/spaces/ThatBlvck/kataoka-rul-predictive-maintenance
+          git push hf main --force
