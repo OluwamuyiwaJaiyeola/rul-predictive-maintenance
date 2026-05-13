@@ -18,12 +18,32 @@ jobs:
       - name: Pull LFS objects
         run: git lfs pull
 
-      - name: Push to Hugging Face
+      - name: Install HF Hub
+        run: pip install huggingface_hub
+
+      - name: Push to Hugging Face via HF CLI
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git config --global user.email "deploy@github.com"
-          git config --global user.name "GitHub Actions"
-          git config lfs.allowincompletepush true
-          git remote add hf https://ThatBlvck:$HF_TOKEN@huggingface.co/spaces/ThatBlvck/kataoka-rul-predictive-maintenance
-          git push hf main --force
+          python - <<'PYEOF'
+          import os
+          from huggingface_hub import HfApi
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          api.upload_folder(
+              folder_path=".",
+              repo_id="ThatBlvck/kataoka-rul-predictive-maintenance",
+              repo_type="space",
+              ignore_patterns=[
+                  ".git*",
+                  ".github*",
+                  "__pycache__",
+                  "*.pyc",
+                  "venv",
+                  ".env",
+                  "mlruns",
+                  "notebooks",
+              ],
+          )
+          print("Upload complete.")
+          PYEOF
