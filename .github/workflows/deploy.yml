@@ -15,11 +15,15 @@ jobs:
           fetch-depth: 0
           lfs: true
 
+      - name: Pull LFS objects
+        run: git lfs pull
+
       - name: Push to Hugging Face
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           git config --global user.email "deploy@github.com"
           git config --global user.name "GitHub Actions"
+          git config lfs.allowincompletepush true
           git remote add hf https://ThatBlvck:$HF_TOKEN@huggingface.co/spaces/ThatBlvck/kataoka-rul-predictive-maintenance
           git push hf main --force
