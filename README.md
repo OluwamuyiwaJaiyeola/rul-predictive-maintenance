@@ -14,7 +14,7 @@ pinned: false
 
 ML-powered Remaining Useful Life (RUL) estimation for industrial robots.
 
-Built by Oluwamuyiwa Jaiyeola · MSc AI & Data Science, University of Hull
+Built by Oluwamuyiwa Jaiyeola
 
 ## What This System Does
 
