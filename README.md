@@ -1,8 +1,8 @@
 ---
 title: Kataoka RUL Predictive Maintenance
 emoji: 🤖
-colorFrom: teal
-colorTo: blue
+colorFrom: green
+colorTo: indigo
 sdk: gradio
 sdk_version: "6.13.0"
 python_version: "3.11"
