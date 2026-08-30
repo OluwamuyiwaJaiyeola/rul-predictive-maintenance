@@ -77,6 +77,21 @@ The final model is a Random Forest regressor trained with 28 operational, mainte
 
 R² describes model fit, not prediction accuracy. MAE and warning lead time should be used alongside R² when evaluating operational usefulness.
 
+### Held-out failure detection evidence
+
+Early detection was defined as the first timestamp at which the model predicted RUL below the 168-hour Critical threshold. Lead time was calculated from that timestamp to the confirmed failure time.
+
+| Held-out robot | Lead time | Lead time in days | Result |
+|---|---:|---:|---|
+| ROB-0013 | 234 hours | 9.8 days | Detected |
+| ROB-0018 | 570 hours | 23.8 days | Detected |
+| ROB-0023 | 822 hours | 34.2 days | Detected |
+| ROB-0027 | 924 hours | 38.5 days | Detected |
+| **Minimum** | **234 hours** | **9.8 days** | **0 missed detections** |
+| Mean across four robots | 637.5 hours | 26.6 days | Descriptive only |
+
+The defensible operational claim is therefore: **all four held-out failures were detected, with at least 9.8 days of warning before each failure**. The 9.8-day figure is the minimum lead time, not the average.
+
 ## Data Understanding and EDA
 
 Four source datasets were assessed across the full robot fleet.
