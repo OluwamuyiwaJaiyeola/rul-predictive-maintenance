@@ -90,7 +90,7 @@ Early detection was defined as the first timestamp at which the model predicted 
 | **Minimum** | **234 hours** | **9.8 days** | **0 missed detections** |
 | Mean across four robots | 637.5 hours | 26.6 days | Descriptive only |
 
-The defensible operational claim is therefore: **all four held-out failures were detected, with at least 9.8 days of warning before each failure**. The 9.8-day figure is the minimum lead time, not the average.
+**All four held-out failures were detected, with at least 9.8 days of warning before each failure**. The 9.8-day figure is the minimum lead time, not the average.
 
 ## Data Understanding and EDA
 
